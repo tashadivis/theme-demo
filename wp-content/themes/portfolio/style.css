@@ -1,0 +1,207 @@
+/*
+Theme Name: Portfolio
+Theme URI: http://localhost/
+Author: Tasha Divis
+Author URI: http://www.tashadivis.com
+Description: My Portfolio Theme
+Version: 1.0
+*/
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+html {
+	background-image: url('http://localhost:8888/theme-demo/wp-content/uploads/2015/10/vancouver_skylinebw.jpg');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.front-header {
+	text-align: center;
+	color: #000;
+	font-size: 4em;
+	font-weight: lighter;
+	margin-top: 80px;
+	text-transform: uppercase;
+	letter-spacing: -4px;
+	margin-bottom: 0;
+}
+.front-sub-header {
+	text-align: center;
+	margin-top: 0;
+}
+.front-sub-header a {
+	text-align: center;
+	color: #000;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	text-decoration: none;
+}
+.front-sub-header a:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.front-sub-header a:hover:after {
+	background: #57B8EA;
+	width:10em;
+}
+.home {
+	margin-top: 20px;
+}
+.content-header {
+	text-align: center;
+	color: #000;
+	font-size: 3em;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: -4px;
+}
+.portfolio_feature {
+	text-align: center;
+	margin-bottom: 80px;
+}
+body {
+  color: #fff;
+}
+.header {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.hello {
+	font-size: 80pt;
+	letter-spacing: -9px;
+	line-height: 40%;
+	vertical-align: middle;
+}
+.head-blurt {
+	font-size: 51pt;
+	letter-spacing: -4px !important;
+	text-align: center;
+}
+.arrow {
+	font-size: 50pt;
+	margin: 0 auto;
+	padding: 0 auto;
+	color: #fff;
+}
+.line2 {
+	font-size: 34pt;
+	line-height: 70%;
+}
+.blue {
+	color: #57B8EA;
+	font-weight: bold;
+}
+nav {
+	display: block;
+	margin: 8px 22px 8px 22px;
+	overflow: hidden;
+	width: 90%; 
+	height: 50px;
+	text-align: right;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+		
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s; 
+}
+	
+nav > ul > li > a {
+	color: #fff;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+	text-decoration: none;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 17pt;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+nav > ul > li:hover > a {
+    color: #fff;
+}
+
+nav > ul > li > a:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+nav > ul > li > a:hover:after {
+	width: 100%;
+	background: #57B8EA;
+}
+.current_page_item a {
+	text-decoration: underline;
+}
+.logo-img {
+	background-image: url('http://localhost:8888/theme-demo/wp-content/uploads/2015/10/logo.png');
+	background-size: 50px;
+	padding-right: 100px;
+	background-repeat: no-repeat;
+}
+.logo-img:hover {
+	background-image: url('http://localhost:8888/theme-demo/wp-content/uploads/2015/10/logo-explan.png');
+	background-size: 50px;
+}
+img .page-content {
+	width: 600px;
+}   
+.single-content {
+	text-align: center;
+}
+
+.wpcf7-form {
+	color: #000;
+	margin-left: 60px;
+	margin-right: 60px;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	text-transform: uppercase;
+}
+.wpcf7-submit {
+	color: #fff;
+	background-color: #57B8EA !important;
+	border-color: #1b6d85;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	text-transform: uppercase;
+}
+.wpcf7-submit:hover, .wpcf7-submit:active {
+	color: #fff;
+	font-weight: bolder;
+	background-color: #57B8EA !important;
+}
